@@ -1,0 +1,60 @@
+body {
+  padding: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.container {
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 500px;
+  font-family: "caveat", cursive;
+  border: 3px solid black;
+  border-radius: 5px 10px;
+  box-shadow: 2px 4px 2px grey;
+  padding-bottom: 50px;
+  background: linear-gradient(to right, rgb(228, 225, 225), white);
+}
+
+.taskMaster {
+  padding: 20px;
+  font-size: 20px;
+}
+
+.taskInput,
+.taskBtn {
+  border: 1px solid rgb(75, 72, 72);
+  border-radius: 20px;
+  box-shadow: 2px 4px 2px grey;
+}
+
+.taskItem {
+  font-size: 20px;
+}
+
+.taskRow {
+  border-bottom: 1px dashed grey;
+}
+
+.emoji,
+.taskItem {
+  padding: 20px;
+  display: block;
+  justify-content: space-between;
+}
+
+.emojiList {
+  font-size: 50px;
+}
+
+.emoji,
+.emojiBtn {
+  font-family: "noto emoji", cursive;
+}

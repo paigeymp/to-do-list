@@ -25,22 +25,21 @@
       <h1>To Do List</h1>
 
       <!--input field-->
-      <div class="taskMaster">
+      <form class="taskMaster" id="task-master">
         <input
           type="text"
           name="task"
-          id="task-master"
+          id="task-input"
           class="taskInput"
           placeholder="Enter a task"
+          autocomplete="off"
         />
         <button id="add-task-btn" class="taskBtn emojiBtn">➕</button>
-      </div>
-      <!--task list-->
+      </form>
 
-      <div class="taskRow row">
-        <div class="col taskItem">Cook up a storm</div>
-        <div class="col emoji">🗑</div>
-      </div>
+      <!--task list-->
+      <div id="entered-task"></div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
